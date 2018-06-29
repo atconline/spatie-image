@@ -15,12 +15,18 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/atconline/spatie-image-optimizer"
+        }
+    ],
     "require": {
         "php": "^7.0",
         "league/glide": "^1.2",
-        "spatie/image-optimizer": "^1.0",
+        "spatie/image-optimizer": "dev-bugfix",
         "spatie/temporary-directory": "^1.0.0",
-        "symfony/process": "^3.0|^4.0"
+        "symfony/process": "2.7.48"
     },
     "require-dev": {
         "larapack/dd": "^1.1",
